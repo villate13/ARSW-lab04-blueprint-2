@@ -27,5 +27,5 @@
  
  * Modify the controller so that it now accepts...
  
- [Modify Controller ByAuthorByName](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART1/captureModifyControllerGetByAuthorByName.png)
- [Verify Controller ByAuthorByNmaer](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART1/captureVerifyGetByAuthoeByName.png)
+ ![Modify Controller ByAuthorByName](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART1/captureModifyControllerGetByAuthorByName.png)
+ ![Verify Controller ByAuthorByNmaer](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART1/captureVerifyGetByAuthoeByName.png)

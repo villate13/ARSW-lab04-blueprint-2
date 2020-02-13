@@ -38,7 +38,8 @@ public class BlueprintAPIController {
 
     /**
      *
-     * @return @throws BlueprintNotFoundException
+     * @return all blueprints 
+     * @throws BlueprintNotFoundException
      */
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<?> getAllBlueprints() throws BlueprintNotFoundException {
@@ -68,7 +69,7 @@ public class BlueprintAPIController {
      * @return all blueprints by Author
      */
     @RequestMapping(method = RequestMethod.GET, path = "{author}")
-    public ResponseEntity<?> getBlueprintsByAuthor(@PathVariable("author") String author) {
+    public ResponseEntity<?> getBlueprintsByAuthor(@PathVariable("author") String author) throws BlueprintNotFoundException {
 
         try {
             Map<String, Blueprint> blueprints = new HashMap();
@@ -97,7 +98,7 @@ public class BlueprintAPIController {
      * @return blueprint by author and by blueprint name
      */
     @RequestMapping(method = RequestMethod.GET, path = "{author}/{name}")
-    public ResponseEntity<?> getBlueprints(@PathVariable("author") String author, @PathVariable("name") String name) {
+    public ResponseEntity<?> getBlueprints(@PathVariable("author") String author, @PathVariable("name") String name) throws BlueprintNotFoundException {
 
         try {
             Map<String, Blueprint> blueprints = new HashMap();

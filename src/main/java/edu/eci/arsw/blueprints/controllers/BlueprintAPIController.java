@@ -128,7 +128,7 @@ public class BlueprintAPIController {
     /**
      * 
      * @param blueprint
-     * @return status http servidor
+     * @return status http server
      * @throws BlueprintPersistenceException 
      */
     @RequestMapping(method = RequestMethod.POST)
@@ -154,6 +154,14 @@ public class BlueprintAPIController {
         }
     }
     
+    /**
+     * 
+     * @param author
+     * @param name
+     * @param points
+     * @return Status HTTP server
+     * @throws BlueprintNotFoundException 
+     */
     @RequestMapping(method = RequestMethod.PUT, path = "{author}/{name}")
     public ResponseEntity<?> updateABlueprint(@PathVariable("author") String author,
             @PathVariable("name") String name, @RequestBody String points) throws BlueprintNotFoundException {

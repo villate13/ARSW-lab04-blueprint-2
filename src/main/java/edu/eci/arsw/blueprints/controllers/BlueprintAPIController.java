@@ -165,7 +165,7 @@ public class BlueprintAPIController {
     @RequestMapping(method = RequestMethod.PUT, path = "{author}/{name}")
     public ResponseEntity<?> updateABlueprint(@PathVariable("author") String author,
             @PathVariable("name") String name, @RequestBody String points) throws BlueprintNotFoundException {
-        //Formato json {"1":[{"x":9,"y":9},{"x":10,"y":10}]}
+        //Formato json {"p1":[{"x":100,"y":101},{"x":110,"y":111}]}
         try {
             //System.out.println("puntos"+points);
             Blueprint selectBP = bpServices.getBlueprint(author, name);

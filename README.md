@@ -29,3 +29,33 @@
  
  ![Modify Controller ByAuthorByName](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART1/captureModifyControllerGetByAuthorByName.png)
  ![Verify Controller ByAuthorByNmaer](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART1/captureVerifyGetByAuthoeByName.png)
+ 
+ ## PARTE II - proceso.
+  
+Importante: Para hacer las peticiones mediante curl utilice un programa o herramienta llamada Postman, donde permite realizar cualquier tipo de peticion HTTP a la API (servidor que este de forma local o en la red). me facilito el proceso al hacer las pruebas.
+
+![Herramienta POSTMAN ](https://new.paradigmadigital.com/wp-content/uploads/2017/01/postman-1.png)
+Link: https://www.postman.com/
+
+
+  * Add the handling of POST requests....
+  
+  #### Controller
+  ![Request POST ](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART2/captureControllerPOST.png)
+  
+  #### Curl...
+  ![Curl POST ](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART2/captureCURLPOST.png)
+  
+  #### Evidence
+  ![Evidence POST ](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART2/captureEvidencePOST.png)
+  
+  * Add support to the PUT verb....
+  
+  #### Controller
+  ![Request PUT ](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART2/captureControllerPUT.png)
+  
+  #### Curl...
+  ![Curl POST ](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART2/captureCURLPUT.png)
+  
+  #### Evidence
+  ![Evidence POST ](https://github.com/villate13/ARSW-lab04-blueprint-2/blob/master/img/PART2/captureEvidencePUT.png)
